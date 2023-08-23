@@ -1,10 +1,13 @@
 .main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: aquamarine;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(190, 196, 194);
     color: black;
+    width: fit-content;
     padding: 10px 10px 10px 10px;
+    border-radius: 5px;
     
 }
 
